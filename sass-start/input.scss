@@ -1,0 +1,39 @@
+// Variable Section
+
+$font-stack: Ubuntu, sans-serif;
+$primary-color: #345;
+$main-bg-color: #f0d175;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+// Variable Section END
+
+// Nesting Section
+
+nav {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    background-color: $main-bg-color; 
+    
+  }
+  li {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 700;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+}

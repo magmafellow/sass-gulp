@@ -1,0 +1,52 @@
+// Mixin Section
+
+@mixin nicebg($t-col: #fff) {
+  background-color: $t-col;
+  box-shadow: 4px 4px 10px rgba($t-col, 0.9);
+  border: 4px dotted #3d0505;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+@mixin nicebgHover($t-col: #fff) {
+  background-color: $t-col;
+  box-shadow: 4px 4px 16px rgba($t-col, 1);
+  border: 4px dotted #7b0a0a;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  display: inline-block;
+  width: 300px;
+  background-color: gray;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.box-3 {
+  @include nicebg($t-col: green);
+  &:hover {
+    @include nicebgHover(#78ff17);
+  }
+}
+
+.box-2 {
+  @include nicebg($t-col: red);
+  &:hover {
+    @include nicebgHover(#ff1649);
+  }
+}
+
+.box-1 {
+  @include nicebg($t-col: orange);
+  &:hover {
+    @include nicebgHover(#ffdf27);
+  }
+}

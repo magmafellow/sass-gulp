@@ -1,0 +1,18 @@
+$font-stack: Ubuntu, sans-serif;
+$primary-color: rgb(97, 11, 11);
+$main-bg-color: #d2ae40;
+
+@use 'body';
+@use 'header';
+
+// Variable Section
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% $font-stack;
+  background-color: #dfdfdf;
+}

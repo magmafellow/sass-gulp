@@ -1,0 +1,15 @@
+@use 'header';
+
+* { box-sizing: border-box }
+
+
+html {
+  background-color: #43c1ba;
+  color: #fff;
+  font-family: Ubuntu;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}

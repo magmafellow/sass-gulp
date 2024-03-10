@@ -1,0 +1,44 @@
+// Variable Section
+$font-stack: Ubuntu, sans-serif;
+$primary-color: rgb(97, 11, 11);
+$main-bg-color: #d2ae40;
+// $font-stack: Ubuntu, sans-serif;
+// $primary-color: rgb(97, 11, 11);
+// $main-bg-color: #d2ae40;
+
+
+header {
+  margin-bottom: 50px;
+}
+
+nav {
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 130px;
+    background-color: $main-bg-color; 
+    
+  }
+  li {
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: $primary-color;
+
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        text-decoration: underline;
+        color: red;
+      }
+    }
+    // a:hover {
+    //   text-decoration: underline;
+    // }
+  }
+}

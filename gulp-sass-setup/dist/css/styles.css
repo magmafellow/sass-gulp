@@ -1,0 +1,24 @@
+.header {
+  background-color: rgb(62, 79, 165);
+  font-size: 36px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #43c1ba;
+  color: #fff;
+  font-family: Ubuntu;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}

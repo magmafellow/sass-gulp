@@ -1,0 +1,93 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  display: inline-block;
+  width: 300px;
+  background-color: gray;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.box-3 {
+  background-color: green;
+  box-shadow: 4px 4px 10px rgba(0, 128, 0, 0.9);
+  border: 4px dotted #3d0505;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+.box-3:hover {
+  background-color: #78ff17;
+  box-shadow: 4px 4px 16px #78ff17;
+  border: 4px dotted #7b0a0a;
+}
+
+.box-2 {
+  background-color: red;
+  box-shadow: 4px 4px 10px rgba(255, 0, 0, 0.9);
+  border: 4px dotted #3d0505;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+.box-2:hover {
+  background-color: #ff1649;
+  box-shadow: 4px 4px 16px #ff1649;
+  border: 4px dotted #7b0a0a;
+}
+
+.box-1 {
+  background-color: orange;
+  box-shadow: 4px 4px 10px rgba(255, 165, 0, 0.9);
+  border: 4px dotted #3d0505;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+.box-1:hover {
+  background-color: #ffdf27;
+  box-shadow: 4px 4px 16px #ffdf27;
+  border: 4px dotted #7b0a0a;
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 130px;
+  background-color: #d2ae40;
+}
+nav li {
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: rgb(97, 11, 11);
+}
+nav li a {
+  color: rgb(97, 11, 11);
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+nav li a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 100% Ubuntu, sans-serif;
+  background-color: #dfdfdf;
+}
+
+/*# sourceMappingURL=output.css.map */

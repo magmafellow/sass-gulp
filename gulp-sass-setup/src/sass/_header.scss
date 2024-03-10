@@ -1,0 +1,11 @@
+$pr-color: rgb(62, 79, 165);
+
+.header {
+  background-color: $pr-color;
+  font-size: 36px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
